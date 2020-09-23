@@ -1,7 +1,11 @@
 h1{
-    color: green;
-    text-shadow: green;
+    color: lightseagreen;
+    text-shadow: lightseagreen;
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: lightblue; 
+    border-bottom: 1px solid black; 
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
 }
