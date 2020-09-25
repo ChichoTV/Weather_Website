@@ -1,0 +1,29 @@
+h1{
+    color: lightseagreen;
+    text-shadow: lightseagreen;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 1px solid black; 
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: lightseagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10%;
+}
+
+img{
+    height: 50%;
+    width:50%;
+}
+
+h3{
+    text-align: left;
+    border: black solid 1px;
+    color: lightseagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

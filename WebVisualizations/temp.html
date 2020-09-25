@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles_index.css">
+    <title>Temperature Vs. Latitude</title>
+    <link rel="stylesheet" href="styles_viz.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Web Visualization Challenge</title>
 </head>
 <body>
     <nav class="navbar navbar-dark bg-primary">
-        <a class="navbar-brand" href="https://chichotv.github.io/Web-Design-Challenge/WebVisualizations/home.html">Home</a>
+        <a class="navbar-brand" href="https://chichotv.github.io/Web-Design-Challenge/WebVisualizations/index.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,37 +27,17 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="https://chichotv.github.io/Web-Design-Challenge/WebVisualizations/wind.html">Wind Speed Vs. Latitude</a>
-                <a class="dropdown-item" href="https://chichotv.github.io/Web-Design-Challenge/WebVisualizations/temp.html">Temperature Vs. Latitude</a>
+                <a class="dropdown-item" href="https://chichotv.github.io/Web-Design-Challenge/WebVisualizations/temp.html">Temperature Vs. Latitude </a>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
           </ul>
         </div>
     </nav>
-    <div class="container-lg bg-light">
-      <div class="row">
-        <div class="col-lg-6 bg-light" >
-          <h1> Summary of Project</h1>
-          <img src="https://ucdavis.bootcampcontent.com/TaylorV/api-challenge/raw/master/Weatherypy/output_data/LatvsTemp.png" class="img-fluid" alt=Image_not_found>
-          <p>The purpose of this project was to analyze correlations between weather patterns and distance from the equator. OpenWeatherMap API was utilized to pull the data, python was used to clean and analyze the data, and Matplotlib was used for visualizations. Some of the factors exmained include cloudiness, wind speed, humidity, and temperature. Through the various links on this site you can discover the analysis and insights from the project.</p>
-        </div>
-        <div class="col-md-3 bg-light">
-          <h1>Visualizations</h1>
-          <a href="https://chichotv.github.io/Web-Design-Challenge/WebVisualizations/wind.html"><img src="https://ucdavis.bootcampcontent.com/TaylorV/api-challenge/raw/master/Weatherypy/output_data/WindvsTemp.png" class="img-fluid" alt=img_not_found></a>
-          <img src="https://ucdavis.bootcampcontent.com/TaylorV/api-challenge/raw/master/Weatherypy/output_data/CloudsvsTemp.png" class="img-fluid" alt=img_not_found>
-        </div>
-        <div class="col-md-3 bg-light">
-          <h1>Click an image</h1>
-          <img src="https://ucdavis.bootcampcontent.com/TaylorV/api-challenge/raw/master/Weatherypy/output_data/HumidvsTemp.png" class="img-fluid" alt=img_not_found>
-          <a href="https://chichotv.github.io/Web-Design-Challenge/WebVisualizations/temp.html"><img src="https://ucdavis.bootcampcontent.com/TaylorV/api-challenge/raw/master/Weatherypy/output_data/LatvsTemp.png" class="img-fluid" alt=img_not_found></a>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
+    <h1 style="text-align: center;">Temperature Vs. Latitude</h1>
+    
+    <img src="https://ucdavis.bootcampcontent.com/TaylorV/api-challenge/raw/master/Weatherypy/output_data/LatvsTemp.png" class="img-fluid rounded mx-auto d-block" alt=img_not_found>
+    <h3>We can see that temperature is roughly proportional to the square of latitude and therefore could be best approximated with a 2nd degree polynomial using the method of least squares (if we so desired).</h3>
 
 
 
